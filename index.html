@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clarusway Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1>Clarusway Survey Form</h1>
+        <p class="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <form action="result.html">
+        <div class="box">
+            <label for="name">Name</label><br>
+            <input type="text" name="Name" id="name" placeholder="Enter your name">
+        </div>
+        <div class="box">
+            <label for="surname">Surname</label><br>
+            <input type="text" name="Surname" id="surname" placeholder="Enter your surname">
+        </div>
+        <div class="box">
+            <label for="email">Email</label><br>
+            <input type="email" name="Email" id="email" placeholder="Enter your email">
+        </div>
+        <div class="box">
+            <label for="form-dropdown">Which option best describes your current role?</label><br>
+            <select name="current role" id="form-dropdown">
+                <option value="select" selected>Select current role</option>
+                <option value="student">Student</option>
+                <option value="mentor">Mentor</option>
+                <option value="T/A">T/A</option>
+            </select>
+        </div>
+        <div class="box">
+            <label>Would you recommend Clarusway to a friend?</label><br>
+            <input type="radio" name="recommend" id="recommend1">
+            <label for="recommend1">Definetely ,Yes</label><br>
+            <input type="radio" name="recommend" id="recommend2">
+            <label for="recommend2">Maybe</label><br>
+            <input type="radio" name="recommend" id="recommend3">
+            <label for="recommend3">Not sure</label><br>
+            <input type="radio" name="recommend" id="recommend4">
+            <label for="recommend4">Definetely ,No</label><br>
+        </div>
+        <div class="box">
+            <label for="form-dropdown2">What is your favorite feature of Clarusway?</label><br>
+            <select name="current role" id="form-dropdown2">
+                <option value="select" selected>Select an option</option>
+                <option value="option1">option1</option>
+                <option value="option2">option2</option>
+                <option value="option3">option3</option>
+            </select>
+        </div>
+        <div class="box">
+            <label>What would you like to see improved? (Check all that apply)</label><br>
+            <input type="checkbox" name="Front-end-projects" id="front-end">
+            <label for="front-end">Front-end Projects</label><br>
+            <input type="checkbox" name="Back-end-projects" id="back-end">
+            <label for="back-end">Back-end Projects</label><br>
+            <input type="checkbox" name="Data-science" id="data-science">
+            <label for="data-science">Data Science</label><br>
+            <input type="checkbox" name="Additional courses" id="additiona-courses">
+            <label for="additiona-courses">Additional Courses</label><br>
+        </div>
+        <div class="box">
+            <label for="comments">Any comments or suggestions?</label><br>
+            <textarea name="comment" id="comments" cols="30" rows="10" placeholder="Enter your comment here... Thanks for your help"></textarea>
+        </div>
+        <div class="submit">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    
+</body>
+</html>
